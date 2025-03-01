@@ -1,0 +1,16 @@
+---
+description: 🧪 Ensure all core functions have unit tests using Pytest.
+globs:
+alwaysApply: true
+---
+---
+description: "🧪 Ensure all core functions have unit tests using Pytest."
+globs: ["tests/**/*.py"]
+---
+
+# Testing
+
+- Automatically generate tests for core functions.
+- Aim for high test coverage and validate all functionalities.
+
+@file:configs/pytest.ini

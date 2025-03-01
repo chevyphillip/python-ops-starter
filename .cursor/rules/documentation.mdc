@@ -1,0 +1,16 @@
+---
+description: 📜 Maintain living project documentation that updates automatically.
+globs:
+alwaysApply: true
+---
+---
+description: "📜 Maintain living project documentation that updates automatically."
+globs: ["docs/**/*.md"]
+---
+
+# Dynamic Documentation
+
+- When the user says "update your docs," refresh project documentation.
+- Reset AI context to reflect the latest project changes.
+
+@file:docs/documentation_update_procedure.md

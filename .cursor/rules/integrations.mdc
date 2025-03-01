@@ -1,0 +1,16 @@
+---
+description: 🧠 Securely integrate OpenAI and Discord APIs.
+globs:
+alwaysApply: true
+---
+---
+description: "🧠 Securely integrate OpenAI and Discord APIs."
+globs: ["src/integrations/openai_service.py", "src/integrations/discord_bot.py"]
+---
+
+# AI & Discord Integrations
+
+- Store API keys securely.
+- Use async event handlers for efficient processing.
+
+@file:docs/integration_guidelines.md

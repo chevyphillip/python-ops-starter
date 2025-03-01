@@ -1,0 +1,24 @@
+line-length = 88
+target-version = "py311"
+exclude = [
+    ".git",
+    ".ruff_cache",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "build",
+    "dist",
+]
+
+select = ["E", "F", "B", "I", "N", "UP", "ANN", "S", "A", "C4", "T20", "RET", "SIM"]
+ignore = ["ANN401", "T201"]
+
+[mccabe]
+max-complexity = 10
+
+[isort]
+known-first-party = ["src"]
+
+[flake8-annotations]
+allow-star-arg-any = true
+suppress-none-returning = true

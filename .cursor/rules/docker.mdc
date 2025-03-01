@@ -1,0 +1,16 @@
+---
+description: 🐳 Containerize applications using Docker.
+globs:
+alwaysApply: true
+---
+---
+description: "🐳 Containerize applications using Docker."
+globs: ["Dockerfile", "docker-compose.yml"]
+---
+
+# Containerization
+
+- Define efficient Dockerfiles.
+- Use `docker-compose` for multi-container setups.
+
+@file:docs/docker_guidelines.md

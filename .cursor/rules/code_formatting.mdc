@@ -1,0 +1,16 @@
+---
+description: 🖤 Format all Python code using Black.
+globs:
+alwaysApply: true
+---
+---
+description: "🖤 Format all Python code using Black."
+globs: ["src/**/*.py", "tests/**/*.py"]
+---
+
+# Code Formatting
+
+- Enforce Black formatting to maintain consistent code style.
+- Automatically format code before committing changes.
+
+@file:.black

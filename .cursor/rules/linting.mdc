@@ -1,0 +1,16 @@
+---
+description: 🐕 Use Ruff to enforce linting and static analysis rules.
+globs:
+alwaysApply: true
+---
+---
+description: "🐕 Use Ruff to enforce linting and static analysis rules."
+globs: ["src/**/*.py", "tests/**/*.py"]
+---
+
+# Linting Rules
+
+- Run Ruff to detect and fix linting issues.
+- Integrate Ruff into CI/CD for continuous code quality checks.
+
+@file:.ruff.toml

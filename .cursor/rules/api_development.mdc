@@ -1,0 +1,16 @@
+---
+description: ⚡ Develop APIs using FastAPI with proper documentation.
+globs:
+alwaysApply: true
+---
+---
+description: "⚡ Develop APIs using FastAPI with proper documentation."
+globs: ["src/api/**/*.py"]
+---
+
+# API Development
+
+- Follow structured routing and dependency injection.
+- Use OpenAPI for documentation.
+
+@file:docs/api_guidelines.md

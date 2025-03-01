@@ -1,0 +1,16 @@
+---
+description: 🔒 Prevent commits unless all tests pass.
+globs:
+alwaysApply: true
+---
+---
+description: "🔒 Prevent commits unless all tests pass."
+globs: ["**/*"]
+---
+
+# Commit Policy Enforcement
+
+- Automatically run tests before allowing commits.
+- Abort commits if any test fails.
+
+@file:.pre-commit-config.yaml

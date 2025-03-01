@@ -1,0 +1,16 @@
+---
+description: 📢 Ensure Cursor visibly indicates which rules are applied.
+globs:
+alwaysApply: false
+---
+---
+description: "📢 Ensure Cursor visibly indicates which rules are applied."
+globs: ["**/*"]
+---
+
+# Rule Visibility
+
+- Whenever Cursor applies a rule, display the corresponding emoji.
+- Example: 🧪 (Testing), 🔗 (Git), 🛫 (Deployment).
+
+@file:configs/display_rule_identifier.md

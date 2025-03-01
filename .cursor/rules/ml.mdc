@@ -1,0 +1,16 @@
+---
+description: 🤖 Standardize ML workflows with scikit-learn and AutoML.
+globs:
+alwaysApply: true
+---
+---
+description: "🤖 Standardize ML workflows with scikit-learn and AutoML."
+globs: ["src/ml/**/*.py"]
+---
+
+# Machine Learning
+
+- Use structured pipelines for data processing.
+- Ensure reproducibility in model training.
+
+@file:docs/ml_guidelines.md

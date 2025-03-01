@@ -1,0 +1,16 @@
+---
+description: 🐘 Use PostgreSQL with JSONB fields for efficient storage.
+globs:
+alwaysApply: true
+---
+---
+description: "🐘 Use PostgreSQL with JSONB fields for efficient storage."
+globs: ["src/db/**/*.py"]
+---
+
+# Database Management
+
+- Optimize queries for JSONB data.
+- Ensure proper indexing for performance.
+
+@file:configs/postgresql_config.sql

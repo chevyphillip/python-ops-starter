@@ -1,0 +1,16 @@
+---
+description: 🔗 Follow GitFlow and enforce structured commits.
+globs:
+alwaysApply: true
+---
+---
+description: "🔗 Follow GitFlow and enforce structured commits."
+globs: [".gitignore", ".github/**/*"]
+---
+
+# Version Control
+
+- Maintain a clean Git history.
+- Require PR reviews for merging.
+
+@file:docs/git_guidelines.md

@@ -1,0 +1,16 @@
+---
+description: 🛫 Deploy applications using Fly.io.
+globs:
+alwaysApply: true
+---
+---
+description: "🛫 Deploy applications using Fly.io."
+globs: ["fly.toml"]
+---
+
+# Deployment
+
+- Configure `fly.toml` for deployment settings.
+- Automate deployment workflows.
+
+@file:docs/flyio_deployment.md

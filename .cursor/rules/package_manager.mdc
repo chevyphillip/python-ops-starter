@@ -1,0 +1,17 @@
+---
+description: 🚀 Use `uv` as the package manager for all new projects.
+globs:
+alwaysApply: true
+---
+---
+description: "🚀 Use `uv` as the package manager for all new projects."
+globs: ["**/pyproject.toml"]
+---
+
+# Project Package Management
+
+- Use `uv` for dependency management and environment isolation.
+- Initialize new projects with `uv init <project_name>`.
+- Install dependencies using `uv add <package_name>`.
+
+@file:docs/uv_setup.md
