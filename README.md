@@ -154,3 +154,4 @@ isort is configured to be compatible with Black in `pyproject.toml` and `.isort.
 - [Ruff](https://github.com/charliermarsh/ruff)
 - [isort](https://pycqa.github.io/isort/)
 - [pre-commit](https://pre-commit.com/)
+# Test change for GPG passphrase caching
